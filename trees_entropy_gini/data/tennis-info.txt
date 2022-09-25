@@ -1,0 +1,5 @@
+**The Tennis Dataset**
+
+In the following data set, the weather condition variables are used to calculate the possibility of playing tennis on a certain day. 
+
+Based on the provided parameters, we need to develop a decision tree that allows us to make an informed decision about whether the player is going to play tennis on a given day, depending on four weather-related parameters including forecast, temperature, humidity, and wind condition.
