@@ -1,0 +1,5 @@
+Notes: 
+
+The binary tree is used with two types of nodes. Decision node and leaf node where the decision node uses a condition to split the data and the leaf node helps to decide the class of the new data point. The root node has the whole dataset. Data points that meet the condition go to the left and right those don't. Follow the same rule for the remaining nodes. When in a split, a child node gets data points belonging to one category or class, it becomes a pure node. We don't split a pure node. 
+
+How we reach the bottom of a tree or solve the problem depends upon choosing the right conditions. The model uses information theory to do that. We need to calculate the information gained. One method is to find the entropy (with formula) for all different splits and then use those values to calculate the information gain (with formula) with each split. Choose the greater value of information gain. A descision tree is a greedy algorithm, it selects the current best split that maximizes information gain and does not update the previous split. 
